@@ -1,0 +1,318 @@
+
+
+header{
+	
+	background-color:#9B86A0;
+	position: sticky;
+		top: 0;
+    z-index: 100;
+	padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{background-color: white}
+	
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+	padding: 8px 16px;
+            transition: background-color 0.3s;
+}
+ nav a:hover {
+            background-color: #BB92BB;
+        }
+
+
+
+
+#home{ font-size: 25px;
+	display: flex;
+	justify-content: center;
+	gap: 5rem;
+	height: 88vh;
+	text-align: center;
+	
+	
+	
+}
+
+.pic6{
+display: flex;
+	
+	margin: auto 0;
+	
+	
+}
+
+
+.pic60{border-radius: 50%;}
+
+.text16{align-self: center;
+text-align: center;}
+
+#home h2 {color:#9E7CA6
+
+}
+ #home h2 {
+	
+            display: inline-block;
+            padding: 10px;
+            border:  1px solid transparent ;
+            transition: border-color 0.3s;
+	 transition: background-color 0.3s;
+	
+        }
+
+        
+        #home h2:hover {
+			border-width: 3px;
+			transform: scale(1.05);
+            border-color:#BB92BB;
+			background-color:#EED3F0;
+			
+        }
+#home p {
+	
+            display: inline-block;
+            padding: 10px;
+            border:  1px solid transparent ;
+            transition: border-color 0.3s;
+	 transition: background-color 0.3s;
+	
+        }
+
+        
+        #home p:hover {
+			border-width: 3px;
+			transform: scale(1.05);
+            border-color:#BB92BB;
+			background-color:#EED3F0;
+			
+        }
+.button  { border-radius: 2rem;
+	padding: 1rem;
+
+	border: rgb(53,53,53) 0.1rem solid;}
+
+.button:hover{
+     background:  rgb(53,53,53);
+	color: white;
+	transition: background-color 0.3s;
+	}
+
+
+#home p{color: #634770}
+
+img{padding-bottom: 15px}
+
+
+#about-me{text-align: center;
+
+}
+#about-me h2{font-size: 30px;
+	color: #9E7CA6;
+
+}
+#about-me p{font-size: 22px;
+color:#634770;
+}
+
+#about-me h2 {
+	
+            display: inline-block;
+            padding: 10px;
+            border:  1px solid transparent ;
+            transition: border-color 0.3s;
+	 transition: background-color 0.3s;
+	
+        }
+
+        
+        #about-me h2:hover {
+			border-width: 3px;
+			transform: scale(1.05);
+            border-color:#BB92BB;
+			background-color:#EED3F0;
+			
+        }
+
+#about-me p {
+	
+            display: inline-block;
+            padding: 10px;
+            border:  1px solid transparent ;
+            transition: border-color 0.3s;
+	 transition: background-color 0.3s;
+        }
+
+        
+        #about-me p:hover {
+			border-width: 3px;
+			transform: scale(1.05);
+            border-color:#BB92BB;
+			background-color:#EED3F0;
+			
+        }
+
+#my-work{text-align: center ;
+	font-size: 22px;
+color: #9E7CA6;
+	
+        }
+
+
+.pic {
+			
+			padding:10px;
+			margin: 10px;
+			transition:  0.5s;
+	border-radius: 50%;
+	box-shadow: 5px 5px gray;
+		}
+		.pic:hover {
+			border: 5px solid #7D598F;
+			
+			width:180px;
+
+		}
+
+.pic2 {
+			
+			padding:10px;
+			margin: 10px;
+			transition:  0.5s;
+	border-radius: 50%;
+	box-shadow: 5px 5px gray;
+		}
+		.pic2:hover {
+			border: 5px solid #7D598F;
+			
+			
+			width:180px;
+
+		}
+#contact-me{text-align: center ;
+	font-size: 22px;
+	color: #9E7CA6;
+
+}
+#contact-me h2 {
+	
+            display: inline-block;
+            padding: 10px;
+            border:  1px solid transparent ;
+            transition: border-color 0.3s;
+	 transition: background-color 0.3s;
+        }
+
+        
+        #contact-me h2:hover {
+			border-width: 3px;
+			transform: scale(1.05);
+            border-color:#BB92BB;
+			background-color:#EED3F0;
+			
+        }
+#my-work h2 {
+	
+            display: inline-block;
+            padding: 10px;
+            border:  1px solid transparent ;
+            transition: border-color 0.3s;
+	 transition: background-color 0.3s;
+        }
+
+        
+        #my-work h2:hover {
+			border-width: 3px;
+			transform: scale(1.05);
+            border-color:#BB92BB;
+			background-color:#EED3F0;
+			
+        }
+
+
+.pic3 {
+			
+			padding:30px;
+			margin: 30px;
+			border: 5px solid #7D598F;
+			border-radius: 10%;
+			
+
+		}
+
+.pic4 {
+			
+			padding:30px;
+			margin: 30px;
+			border: 5px solid #7D598F;
+			border-radius: 10%;
+			
+
+		}
+footer{	background-color:#9B86A0;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.social-links i {
+    font-size: 24px;
+    color: #555;
+
+}
+
+.fab.fa-facebook {
+    color: #1877f2; 
+
+}
+
+.fab.fa-twitter {
+    color: #1da1f2; 
+}
+
+.fab.fa-instagram {
+    color: #bc2a8d; 
+}
+
+.rights{text-align: center}
+
+
+
+  
+
+
+
+
+
+     
+        
+			
+        
+
+	
+            
+
+
+        
+        
+ 
+
+	
